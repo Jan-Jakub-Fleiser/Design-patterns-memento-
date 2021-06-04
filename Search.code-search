@@ -1,0 +1,338 @@
+# Query: miniTexteditor
+# ContextLines: 1
+
+187 results - 32 files
+
+App.xaml:
+  1: <Application x:Class="TextEditor.App"
+  2               xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  3               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  4:              xmlns:local="clr-namespace:TextEditor"
+  5               StartupUri="MainWindow.xaml">
+
+App.xaml.cs:
+  8  
+  9: namespace TextEditor
+  10  {
+
+Caretaker.cs:
+  6  
+  7: namespace TextEditor
+  8  {
+
+MainWindow.xaml:
+  1: <Window x:Class="TextEditor.MainWindow"
+  2          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+
+  5          xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  6:         xmlns:local="clr-namespace:TextEditor"
+  7          mc:Ignorable="d"
+
+MainWindow.xaml.cs:
+  15  
+  16: namespace TextEditor
+  17  {
+
+Originator.cs:
+  6  
+  7: namespace TextEditor
+  8  {
+
+TextEditor.sln:
+  5  MinimumVisualStudioVersion = 10.0.40219.1
+  6: Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextEditor", "TextEditor.csproj", "{44F3D0D5-AF99-417F-853B-E47BFCB09DDB}"
+  7  EndProject
+
+bin\Debug\net5.0-windows\TextEditor.deps.json:
+   8      ".NETCoreApp,Version=v5.0": {
+   9:       "TextEditor/1.0.0": {
+  10          "runtime": {
+  11:           "TextEditor.dll": {}
+  12          }
+
+  16    "libraries": {
+  17:     "TextEditor/1.0.0": {
+  18        "type": "project",
+
+obj\project.assets.json:
+  15      "restore": {
+  16:       "projectUniqueName": "G:\\TextEditor-main\\TextEditor-main\\TextEditor.csproj",
+  17:       "projectName": "TextEditor",
+  18:       "projectPath": "G:\\TextEditor-main\\TextEditor-main\\TextEditor.csproj",
+  19        "packagesPath": "C:\\Users\\blair\\.nuget\\packages\\",
+  20:       "outputPath": "G:\\TextEditor-main\\TextEditor-main\\obj\\",
+  21        "projectStyle": "PackageReference",
+
+obj\project.nuget.cache:
+  4    "success": true,
+  5:   "projectFilePath": "G:\\TextEditor-main\\TextEditor-main\\TextEditor.csproj",
+  6    "expectedPackageFiles": [],
+
+obj\TextEditor.csproj.nuget.dgspec.json:
+   3    "restore": {
+   4:     "G:\\TextEditor-main\\TextEditor-main\\TextEditor.csproj": {}
+   5    },
+   6    "projects": {
+   7:     "G:\\TextEditor-main\\TextEditor-main\\TextEditor.csproj": {
+   8        "version": "1.0.0",
+   9        "restore": {
+  10:         "projectUniqueName": "G:\\TextEditor-main\\TextEditor-main\\TextEditor.csproj",
+  11:         "projectName": "TextEditor",
+  12:         "projectPath": "G:\\TextEditor-main\\TextEditor-main\\TextEditor.csproj",
+  13          "packagesPath": "C:\\Users\\blair\\.nuget\\packages\\",
+  14:         "outputPath": "G:\\TextEditor-main\\TextEditor-main\\obj\\",
+  15          "projectStyle": "PackageReference",
+
+obj\Debug\net5.0-windows\App.g.cs:
+  32  using System.Windows.Shell;
+  33: using TextEditor;
+  34  
+  35  
+  36: namespace TextEditor {
+  37      
+
+  64          public static void Main() {
+  65:             TextEditor.App app = new TextEditor.App();
+  66              app.InitializeComponent();
+
+obj\Debug\net5.0-windows\App.g.i.cs:
+  32  using System.Windows.Shell;
+  33: using TextEditor;
+  34  
+  35  
+  36: namespace TextEditor {
+  37      
+
+  64          public static void Main() {
+  65:             TextEditor.App app = new TextEditor.App();
+  66              app.InitializeComponent();
+
+obj\Debug\net5.0-windows\MainWindow.g.cs:
+  32  using System.Windows.Shell;
+  33: using TextEditor;
+  34  
+  35  
+  36: namespace TextEditor {
+  37      
+
+  95              _contentLoaded = true;
+  96:             System.Uri resourceLocater = new System.Uri("/TextEditor;V1.0.0.0;component/mainwindow.xaml", System.UriKind.Relative);
+  97              
+
+obj\Debug\net5.0-windows\MainWindow.g.i.cs:
+  32  using System.Windows.Shell;
+  33: using TextEditor;
+  34  
+  35  
+  36: namespace TextEditor {
+  37      
+
+  95              _contentLoaded = true;
+  96:             System.Uri resourceLocater = new System.Uri("/TextEditor;V1.0.0.0;component/mainwindow.xaml", System.UriKind.Relative);
+  97              
+
+obj\Debug\net5.0-windows\TextEditor_MarkupCompile.cache:
+   1: TextEditor
+   2  1.0.0.0
+
+   6  .cs
+   7: g:\TextEditor-main\TextEditor-main\obj\Debug\net5.0-windows\
+   8: TextEditor
+   9  none
+
+  11  TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+  12: g:\TextEditor-main\TextEditor-main\App.xaml
+  13  1219584333
+
+obj\Debug\net5.0-windows\TextEditor_MarkupCompile.i.cache:
+   1: TextEditor
+   2  1.0.0.0
+
+   6  .cs
+   7: G:\TextEditor-main\TextEditor-main\obj\Debug\net5.0-windows\
+   8: TextEditor
+   9  none
+
+  11  TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+  12: G:\TextEditor-main\TextEditor-main\App.xaml
+  13  11151548125
+
+obj\Debug\net5.0-windows\TextEditor_MarkupCompile.lref:
+  2  
+  3: Fg:\TextEditor-main\TextEditor-main\MainWindow.xaml;;
+  4  
+
+obj\Debug\net5.0-windows\TextEditor.AssemblyInfo.cs:
+  13  
+  14: [assembly: System.Reflection.AssemblyCompanyAttribute("TextEditor")]
+  15  [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+
+  17  [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+  18: [assembly: System.Reflection.AssemblyProductAttribute("TextEditor")]
+  19: [assembly: System.Reflection.AssemblyTitleAttribute("TextEditor")]
+  20  [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+
+obj\Debug\net5.0-windows\TextEditor.csproj.FileListAbsolute.txt:
+   1: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\bin\Debug\net5.0-windows\TextEditor.exe
+   2: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\bin\Debug\net5.0-windows\TextEditor.deps.json
+   3: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\bin\Debug\net5.0-windows\TextEditor.runtimeconfig.json
+   4: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\bin\Debug\net5.0-windows\TextEditor.runtimeconfig.dev.json
+   5: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\bin\Debug\net5.0-windows\TextEditor.dll
+   6: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\bin\Debug\net5.0-windows\ref\TextEditor.dll
+   7: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\bin\Debug\net5.0-windows\TextEditor.pdb
+   8: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\TextEditor.csprojAssemblyReference.cache
+   9: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\MainWindow.g.cs
+  10: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\App.g.cs
+  11: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\TextEditor_MarkupCompile.cache
+  12: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\TextEditor_MarkupCompile.lref
+  13: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\MainWindow.baml
+  14: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\TextEditor.g.resources
+  15: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\TextEditor.GeneratedMSBuildEditorConfig.editorconfig
+  16: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\TextEditor.AssemblyInfoInputs.cache
+  17: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\TextEditor.AssemblyInfo.cs
+  18: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\TextEditor.csproj.CoreCompileInputs.cache
+  19: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\TextEditor.dll
+  20: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\ref\TextEditor.dll
+  21: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\TextEditor.pdb
+  22: C:\Users\Sandi\source\repos\Personal_GitHub\TextEditor\obj\Debug\net5.0-windows\TextEditor.genruntimeconfig.cache
+  23: C:\Users\Sandi\Source\Repos\TextEditor\bin\Debug\net5.0-windows\TextEditor.exe
+  24: C:\Users\Sandi\Source\Repos\TextEditor\bin\Debug\net5.0-windows\TextEditor.deps.json
+  25: C:\Users\Sandi\Source\Repos\TextEditor\bin\Debug\net5.0-windows\TextEditor.runtimeconfig.json
+  26: C:\Users\Sandi\Source\Repos\TextEditor\bin\Debug\net5.0-windows\TextEditor.runtimeconfig.dev.json
+  27: C:\Users\Sandi\Source\Repos\TextEditor\bin\Debug\net5.0-windows\TextEditor.dll
+  28: C:\Users\Sandi\Source\Repos\TextEditor\bin\Debug\net5.0-windows\ref\TextEditor.dll
+  29: C:\Users\Sandi\Source\Repos\TextEditor\bin\Debug\net5.0-windows\TextEditor.pdb
+  30: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\MainWindow.g.cs
+  31: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\App.g.cs
+  32: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\TextEditor_MarkupCompile.cache
+  33: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\TextEditor_MarkupCompile.lref
+  34: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\MainWindow.baml
+  35: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\TextEditor.g.resources
+  36: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\TextEditor.GeneratedMSBuildEditorConfig.editorconfig
+  37: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\TextEditor.AssemblyInfoInputs.cache
+  38: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\TextEditor.AssemblyInfo.cs
+  39: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\TextEditor.csproj.CoreCompileInputs.cache
+  40: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\TextEditor.dll
+  41: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\ref\TextEditor.dll
+  42: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\TextEditor.pdb
+  43: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\TextEditor.genruntimeconfig.cache
+  44: C:\Users\Sandi\Source\Repos\TextEditor\obj\Debug\net5.0-windows\TextEditor.csprojAssemblyReference.cache
+
+obj\Release\net5.0-windows\App.g.cs:
+  32  using System.Windows.Shell;
+  33: using TextEditor;
+  34  
+  35  
+  36: namespace TextEditor {
+  37      
+
+  64          public static void Main() {
+  65:             TextEditor.App app = new TextEditor.App();
+  66              app.InitializeComponent();
+
+obj\Release\net5.0-windows\MainWindow.g.cs:
+  32  using System.Windows.Shell;
+  33: using TextEditor;
+  34  
+  35  
+  36: namespace TextEditor {
+  37      
+
+  95              _contentLoaded = true;
+  96:             System.Uri resourceLocater = new System.Uri("/TextEditor;component/mainwindow.xaml", System.UriKind.Relative);
+  97              
+
+obj\Release\net5.0-windows\miniTexteditor_0mrncizs_wpftmp_MarkupCompile.cache:
+   1: miniTexteditor_0mrncizs_wpftmp
+   2  
+
+   6  .cs
+   7: C:\Users\Sandi\Source\Repos\TextEditor\obj\Release\net5.0-windows\
+   8: miniTexteditor_0mrncizs_wpftmp
+   9  none
+
+  11  TRACE;RELEASE;NET;NET5_0;NETCOREAPP
+  12: C:\Users\Sandi\Source\Repos\TextEditor\App.xaml
+  13  11407045341
+
+obj\Release\net5.0-windows\miniTexteditor_0mrncizs_wpftmp_MarkupCompile.lref:
+  2  
+  3: FC:\Users\Sandi\Source\Repos\TextEditor\MainWindow.xaml;;
+  4  
+
+obj\Release\net5.0-windows\miniTexteditor_0mrncizs_wpftmp.AssemblyInfo.cs:
+  13  
+  14: [assembly: System.Reflection.AssemblyCompanyAttribute("miniTexteditor_0mrncizs_wpftmp")]
+  15  [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+
+  17  [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+  18: [assembly: System.Reflection.AssemblyProductAttribute("miniTexteditor_0mrncizs_wpftmp")]
+  19: [assembly: System.Reflection.AssemblyTitleAttribute("miniTexteditor_0mrncizs_wpftmp")]
+  20  [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+
+obj\Release\net5.0-windows\TextEditor_MarkupCompile.cache:
+   1: TextEditor
+   2  
+
+   6  .cs
+   7: C:\Users\Sandi\source\repos\TextEditor\obj\Release\net5.0-windows\
+   8: TextEditor
+   9  none
+
+  11  TRACE;RELEASE;NET;NET5_0;NETCOREAPP
+  12: C:\Users\Sandi\source\repos\TextEditor\App.xaml
+  13  11407045341
+
+obj\Release\net5.0-windows\TextEditor_MarkupCompile.lref:
+  2  
+  3: FC:\Users\Sandi\Source\Repos\TextEditor\MainWindow.xaml;;
+  4  
+
+obj\Release\net5.0-windows\miniTexteditor_qi35icoq_wpftmp_MarkupCompile.cache:
+   1: miniTexteditor_qi35icoq_wpftmp
+   2  
+
+   6  .cs
+   7: C:\Users\Sandi\Source\Repos\TextEditor\obj\Release\net5.0-windows\
+   8: miniTexteditor_qi35icoq_wpftmp
+   9  none
+
+  11  TRACE;RELEASE;NET;NET5_0;NETCOREAPP
+  12: C:\Users\Sandi\Source\Repos\TextEditor\App.xaml
+  13  11407045341
+
+obj\Release\net5.0-windows\miniTexteditor_qi35icoq_wpftmp_MarkupCompile.lref:
+  2  
+  3: FC:\Users\Sandi\Source\Repos\TextEditor\MainWindow.xaml;;
+  4  
+
+obj\Release\net5.0-windows\miniTexteditor_qi35icoq_wpftmp.AssemblyInfo.cs:
+  13  
+  14: [assembly: System.Reflection.AssemblyCompanyAttribute("miniTexteditor_qi35icoq_wpftmp")]
+  15  [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+
+  17  [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+  18: [assembly: System.Reflection.AssemblyProductAttribute("miniTexteditor_qi35icoq_wpftmp")]
+  19: [assembly: System.Reflection.AssemblyTitleAttribute("miniTexteditor_qi35icoq_wpftmp")]
+  20  [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+
+obj\Release\net5.0-windows\TextEditor.AssemblyInfo.cs:
+  13  
+  14: [assembly: System.Reflection.AssemblyCompanyAttribute("TextEditor")]
+  15  [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+
+  17  [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+  18: [assembly: System.Reflection.AssemblyProductAttribute("TextEditor")]
+  19: [assembly: System.Reflection.AssemblyTitleAttribute("TextEditor")]
+  20  [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+
+scriptcs_bin\Debug\net5.0-windows\TextEditor.deps.json:
+   8      ".NETCoreApp,Version=v5.0": {
+   9:       "TextEditor/1.0.0": {
+  10          "runtime": {
+  11:           "TextEditor.dll": {}
+  12          }
+
+  16    "libraries": {
+  17:     "TextEditor/1.0.0": {
+  18        "type": "project",

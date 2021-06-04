@@ -1,0 +1,20 @@
+﻿<Window x:Class="TextEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextEditor"
+        mc:Ignorable="d"
+        Title="Text editor pro" Height="312" Width="404">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Text editor pro" FontSize="30" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="tb_text" Margin="10,50,168,64" Text="" TextWrapping="Wrap" KeyUp="tb_text_KeyUp"/>
+        <Button x:Name="btn_undo" Content="◀" HorizontalAlignment="Left" Margin="170,0,0,34" Width="25" Click="btn_undo_Click" Height="20" VerticalAlignment="Bottom" IsEnabled="False"/>
+        <Button x:Name="btn_save" Content="Save" HorizontalAlignment="Left" Margin="10,0,0,39" Width="38" Click="Save_Click" RenderTransformOrigin="-2.342,0.837" Height="20" VerticalAlignment="Bottom"/>
+        <Button x:Name="btn_redo" Content="▶" HorizontalAlignment="Left" Margin="208,0,0,34" Width="28" Click="btn_redo_Click" Height="20" VerticalAlignment="Bottom"/>
+        <ListBox x:Name="lstBox_memento" Margin="0,10,15,23" MouseDoubleClick="lstBox_memento_MouseDoubleClick" HorizontalAlignment="Right" Width="133"/>
+
+    </Grid>
+
+</Window>
